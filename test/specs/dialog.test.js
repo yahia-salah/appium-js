@@ -3,7 +3,7 @@ const expect = require("chai").expect;
 
 describe("Dialog", () => {
   afterEach(async function () {
-    // runs before each test in this block
+    // runs after each test in this block
     await browser.reloadSession();
   });
 
